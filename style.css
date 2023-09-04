@@ -11,7 +11,7 @@ body{
 }
 
 #afc-logo{
-    height:200px;
+    height:150px;
 }
 
 #top{
@@ -33,6 +33,11 @@ body{
 h1{
     color:white;
     font-weight:bold;
+    font-size:25px;
+}
+
+h3{
+    font-size: 20px;
 }
 
 #branch{
