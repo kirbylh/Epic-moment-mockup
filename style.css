@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #3B2771;
+    color: #9CE12E;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#afc-logo{
+    height:200px;
+}
+
+#top{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top:2%;
+    padding:2%;
+    align-items: center;
+}
+
+#top > div{
+    width:60%;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color:white;
+    font-weight:bold;
+}
+
+#branch{
+    width:70%;
+}
+
+.btn-outline-success{
+    border: 2px solid #9CE12E;
+    color:#9CE12E;
+    font-weight: bold;
+    width:15%;
+    padding:1%;
+}
+
+.matchList{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:1%;
+}
+
+.btn{
+    margin: 1%;
+}
+
+.bottom{
+    margin-bottom:2%;
+}
