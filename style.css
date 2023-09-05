@@ -67,3 +67,31 @@ h3{
 .bottom{
     margin-bottom:2%;
 }
+
+@media screen and (max-width:600px){
+    h1{
+        font-size:20px;
+    }
+
+    h3{
+        font-size:15px;
+    }
+
+    #top>div{
+        width:100%;
+    }
+
+    #top{
+        display:block;
+        text-align: center;
+    }
+
+    #branch{
+        width:90%;
+    }
+
+    .btn{
+        width:40%;
+    }
+    
+}
