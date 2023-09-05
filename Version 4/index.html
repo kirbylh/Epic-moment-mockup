@@ -22,7 +22,20 @@
                 margin-top:2%;
             }
 
-            
+            .mobile{
+                display:none;
+            }
+
+            @media screen and (max-width:600px) {
+                .poll{
+                    display: none;
+                }
+
+                .mobile{
+                    display:block;
+                    margin-top:2%;
+                }
+            }
             
         </style>
     </head>
@@ -31,6 +44,10 @@
         <img src="https://www.fifplay.com/img/public/afc-asian-cup-2023-logo-white.png" alt="">
         <div class="poll">
             <div data-pinpoll-id="245375" data-mode="poll"></div>
+        </div>
+
+        <div class="mobile">
+            <div data-pinpoll-id="246503" data-mode="poll"></div>    
         </div>
 
         
