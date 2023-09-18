@@ -5,7 +5,7 @@
 
 body{
     background-color: #3B2771;
-    color: #9CE12E;
+    color: #9de32e;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -45,11 +45,17 @@ h3{
 }
 
 .btn-outline-success{
-    border: 2px solid #9CE12E;
-    color:#9CE12E;
+    border: 2px solid white;
+    color:white;
     font-weight: bold;
     width:15%;
     padding:1%;
+}
+
+.btn-outline-success:hover{
+    border: 2px solid white;
+    color:white;
+    background-color: transparent;
 }
 
 .matchList{
@@ -95,3 +101,21 @@ h3{
     }
     
 }
+
+#vote{
+    width:40%;
+    border: 2px solid #9de32e;
+    color:#9de32e;
+}
+
+#vote:hover{
+    width:40%;
+    border: 2px solid #9de32e;
+    color:white;
+    background-color:#9de32e ;
+}
+
+.desc{
+    margin-top:2%;
+}
+
